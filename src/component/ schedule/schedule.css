@@ -1,0 +1,53 @@
+main {
+  margin-top: 60px;
+}
+
+h1 {
+  color: #ff4d48;
+  font-size: 20px;
+  font-family: "campton_bookbold", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 18px;
+}
+
+.separator {
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  width: 2.5em;
+  border-top: 5px solid #ff4d48;
+}
+
+.darker {
+  background: transparent;
+  color: #b9b9b9;
+}
+
+.lighter {
+  background: #ffffff;
+  color: #666666;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#particles-js {
+  height: 100%;
+  background: #161616;
+}
+
+@media (min-width: 950px) {
+  h1 {
+    font-size: 30px;
+  }
+  .separator {
+    width: 4.3rem;
+  }
+}
